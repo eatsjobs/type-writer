@@ -1,19 +1,25 @@
 # Typewriter web component 
 a type-writer web component
 
-![type-writer](https://github.com/eatsjobs/grab/blob/master/type-writer.gif)
+![type-writer](https://github.com/eatsjobs/type-writer/blob/main/type-writer.gif)
 
-``` npm i @eatsjobs/type-writer```
+```bash 
+npm i @eatsjobs/type-writer
+```
 
-``` import '@eatsjobs/type-writer'```
+```bash
+import '@eatsjobs/type-writer'
+```
+
 or
-``` 
+
+```html
 <script type="module">
-import 'node_modules/@eatsjobs/type-writer'
+  import 'node_modules/@eatsjobs/type-writer';
 </script>
 ```
-```
-    <type-writer
+```html
+  <type-writer
       style="
         --playground-background: #282a36;
         --text-color: #50fa7b;
@@ -41,6 +47,5 @@ import 'node_modules/@eatsjobs/type-writer'
       - autostart
       And also some methods to stop, restart, pause and resume the typewriting.
   </type-writer>
-
 ```
 
