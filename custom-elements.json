@@ -1,0 +1,73 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "type-writer",
+      "path": "./src/type-writer.js",
+      "description": "A type-writer web component",
+      "attributes": [
+        {
+          "name": "autostart",
+          "description": "start on mount",
+          "type": "Boolean"
+        },
+        {
+          "name": "typingdelay",
+          "description": "the delay between each word in ms",
+          "type": "Number"
+        },
+        {
+          "name": "linebreakdelay",
+          "description": "the delay between after linebreak \\n",
+          "type": "Number"
+        }
+      ],
+      "properties": [
+        {
+          "name": "autoStart",
+          "type": "boolean"
+        },
+        {
+          "name": "typingDelay",
+          "type": "number"
+        },
+        {
+          "name": "lineBreakDelay",
+          "type": "number"
+        }
+      ],
+      "events": [
+        {
+          "name": "done",
+          "description": "Dispatched when type-writing naturally finish"
+        }
+      ],
+      "cssProperties": [
+        {
+          "name": "--playground-background",
+          "description": "the background of the container"
+        },
+        {
+          "name": "--text-color",
+          "description": "the color of the text"
+        },
+        {
+          "name": "--font-family",
+          "description": "font-family"
+        },
+        {
+          "name": "--font-size",
+          "description": "font-size"
+        },
+        {
+          "name": "--cursor-width",
+          "description": "the width of the cursor"
+        },
+        {
+          "name": "--cursor-height",
+          "description": "the height of the cursor;"
+        }
+      ]
+    }
+  ]
+}

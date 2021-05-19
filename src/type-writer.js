@@ -3,6 +3,21 @@ async function delay(ms = 0) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+/**
+ * A type-writer web component
+ * @fires done - Dispatched when type-writing naturally finish 
+ * @element type-writer
+ * @attr {Boolean} autostart - start on mount
+ * @attr {Number} typingdelay - the delay between each word in ms
+ * @attr {Number} linebreakdelay - the delay between after linebreak \n 
+ * @cssprop --playground-background - the background of the container
+ * @cssprop --playground-background - the background of the container 
+ * @cssprop --text-color - the color of the text
+ * @cssprop --font-family - font-family
+ * @cssprop --font-size - font-size
+ * @cssprop --cursor-width - the width of the cursor
+ * @cssprop --cursor-height - the height of the cursor; 
+ */
 export class TypeWriter extends HTMLElement {
   static get template() {
     const template = h("template");

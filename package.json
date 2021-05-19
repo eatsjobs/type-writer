@@ -6,21 +6,21 @@
   "module": "./type-writer.js",
   "exports": "./type-writer.js",
   "scripts": {
-    "start": "es-dev-server --app-index index.html --watch --open"
+    "dev": "es-dev-server --app-index index.html --watch --open",
+    "start": "npx http-server . -b -c-1 -p 8080"
   },
   "dependencies": {},
   "devDependencies": {
-    "es-dev-server": "^2.1.0"
+    "es-dev-server": "^2.1.0",
+    "web-component-analyzer": "^1.1.6"
   },
   "resolutions": {},
-  "keywords": [],
+  "keywords": [
+    "webcomponent",
+    "vanillajs"
+  ],
   "files": [
     "src/*",
     "type-writer.js"
-  ],
-  "browserslist": [
-    "last 2 versions",
-    "not dead",
-    "> 0.2%"
   ]
 }
