@@ -8,7 +8,10 @@
   "author": "Pasquale Mangialavori (https://twitter.com/p_mangialavori)",
   "scripts": {
     "dev": "es-dev-server --app-index index.html --watch --open",
-    "start": "npx http-server . -b -c-1 -p 8080"
+    "start": "npx http-server . -b -c-1 -p 8080",
+    "lint": "eslint . --fix",
+    "preversion": "npm run lint",
+    "postversion": "git push && git push --tags"
   },
   "dependencies": {},
   "devDependencies": {
