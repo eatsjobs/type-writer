@@ -1,6 +1,6 @@
 {
   "name": "@eatsjobs/type-writer",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A type-writer web-component",
   "main": "./type-writer.js",
   "module": "./type-writer.js",
